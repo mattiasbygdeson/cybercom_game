@@ -19,7 +19,7 @@
         <tr>
           <th>Name</th>
           <th>Education</th>
-          <th>Phone</th>
+          <th>Email</th>
           <th>Score</th>
           <!-- <th></th> -->
         </tr>
@@ -27,7 +27,7 @@
         <tr v-for="user in scoreboard" :key="user._id">
           <td>{{user.name}}</td>
           <td>{{user.company}}</td>
-          <td>{{user.phone}}</td>
+          <td>{{user.email}}</td>
           <td>
             {{user.score}}
             <span><button @click="removeItem(user._id)" class="button-delete">Ta bort</button></span>
@@ -55,7 +55,7 @@ export default {
       scoreboard: [],
       loggedin: false,
       passInput: "",
-      passStored: "massasca!2020"
+      passStored: "cybercom!2020"
     }
   },
   created() {
@@ -73,7 +73,6 @@ export default {
       await removeScore(id);
       // }
 
-      // await removeScore(phone);
       this.requestScoreList();
     },
     compare(a, b) {

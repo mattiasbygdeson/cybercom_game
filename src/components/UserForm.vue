@@ -5,7 +5,7 @@
 
     <nav class="bottom-right">
       <ul>
-        <router-link to="/guide">
+        <router-link to="/instructions">
           <button class="button-secondary">{{this.paragraphs.buttonAbort}}</button>
         </router-link>
         <router-link to="/game">
@@ -21,8 +21,8 @@
       <label for="company">{{this.paragraphs.userFormCompany}}</label>
       <input id="company" type="text" v-model="education">
 
-      <label for="phone">{{this.paragraphs.userFormPhone}}</label>
-      <input id="phone" type="number" v-model="phone">
+      <label for="email">{{this.paragraphs.userFormPhone}}</label>
+      <input id="email" type="text" v-model="email">
 
       <div>
         <input id="privacy-agreement" type="checkbox" v-model="checkbox">
@@ -47,7 +47,7 @@ export default {
     return {
       name: "",
       education: "",
-      phone: "",
+      email: "",
       checkbox: false,
       disabled: true,
     }
@@ -55,10 +55,10 @@ export default {
   methods: {
     checkFormCompletion() {
       var name = this.name;
-      var phone = this.phone;
+      var email = this.email;
       var checkbox = this.checkbox;
 
-      if(name && phone && checkbox) {
+      if(name && email && checkbox) {
         this.disabled = false;
       } else {
         this.disabled = true;
@@ -68,7 +68,7 @@ export default {
       const current_player = {
         name: this.name,
         education: this.education,
-        phone: this.phone,
+        email: this.email,
       };
 
       this.$emit('submit-form', current_player);

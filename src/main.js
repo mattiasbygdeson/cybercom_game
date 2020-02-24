@@ -4,7 +4,6 @@ import VueRouter from 'vue-router'
 import Home from './components/Home'
 import Score from './components/Score'
 import Instructions from './components/Instructions';
-import Guide from './components/Guide';
 import UserForm from './components/UserForm';
 import GameContainer from './components/GameContainer';
 import AdminScore from './components/AdminScore';
@@ -25,7 +24,6 @@ const router = new VueRouter({
     { path: '/', component: Home },
     { path: '/score', component: Score },
     { path: '/instructions', component: Instructions },
-    { path: '/guide', component: Guide },
     { path: '/userform', component: UserForm },
     { path: '/game', component: GameContainer },
     { path: '/adminscore', component: AdminScore },

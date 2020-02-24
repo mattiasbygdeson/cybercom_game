@@ -1,15 +1,13 @@
 const headlines_eng = {
   home: "About Cybercom",
   instructions: "This is how you play",
-  guide: "Three different flaws to reveal a defect board",
   userForm: "Please fill the form before you start",
   score: "Score board",
 };
 
 const paragraphs_eng = {
-  introduction1: "Introduction about company",
-  introduction2: "Introduction about company",
-  introduction3: "Introduction about company",
+  introduction1: "Welcome to Cybercom. We're located here in Sundsvall and in eight other cities in Sweden. In Sundsvall we're working with developing web services and applications. Our office consists of front-end and back-end developers, UX designers, project leaders and strategy advisors.",
+  introduction2: "Try out our game to see if you recognize the tools we're using!",
 
   buttonContinue: "Continue",
   buttonNext: "Next",
@@ -18,43 +16,38 @@ const paragraphs_eng = {
   buttonScore: "Score board",
   buttonTryAgain: "Play again",
 
-  instructions1: "Text explaining the game",
-  instructions2: "Text explaining the game",
+  instructions1: "During 45 seconds a number of logotypes will pass by on the screen. Touch the logotypes that are unrelevant to our work to remove them.",
+  instructions2: "The high score list will consist of today's 8 hottest players. Can you take them on?",
   instructions3: "for every unrelevant tech you remove",
-  instructions4: "for every modern tech you keep",
-  instructions5: "for every modern tech you remove",
+  instructions4: "for every relevant tech you keep",
+  instructions5: "for every relevant tech you remove",
   instructions6: "for every unrelevant tech you keep",
-
-  guideTitle1: "Fissures",
-  guideDescription1: "Description",
-  guideTitle2: "Ugly branch spot",
-  guideDescription2: "Description",
-  guideTitle3: "Tight & long branches",
-  guideDescription3: "Description",
 
   userFormName: "Name",
   userFormCompany: "Education",
-  userFormPhone: "Phone number",
-  userFormNote: "The winner will be contacted with a text message at the end of the day",
+  userFormPhone: "E-mail address",
+  userFormNote: "The winner will be contacted at a later time",
   userFormAgreement: "I agree that Cybercom Sundsvall stores this data for analyzing and marketing purposes",
+
+  result1: "relevant techs passed through",
+  result2: "unrelevant techs were removed",
+  result3: "relevant techs were removed",
+  result4: "unrelevant techs passed through",
 
   score: "Points",
   youGot: "You got",
-  readMore: "Read more"
 }
 
 const headlines_swe = {
-  home: "Om SCA",
+  home: "Om Cybercom",
   instructions: "Så här spelar du",
-  guide: "Tre olika brister som visar om brädan är defekt",
   userForm: "Vänligen fyll i formuläret innan du börjar",
   score: "Högsta poäng",
 };
 
 const paragraphs_swe = {
-  introduction1: "Kul att du är här! Välkommen till SCA Wood och SCA SmartTimber.",
-  introduction2: "Vi vill visa dig hur vi arbetar på SCA. I vår produktion är kontroll av vilka produkter som håller kvalitetskraven en väldigt viktig del för att säkerställa att vi levererar fina produkter till dig.",
-  introduction3: "Var med och testa hur du sorterar virke som ett proffs!",
+  introduction1: "Välkommen till Cybercom. Vi finns här i Sundsvall och på åtta andra orter i Sverige. I Sundsvall arbetar vi med att utveckla webbtjänster och applikationer. På kontoret finns frontend- och backendutvecklare, UX-designer, projektledare och strategiska rådgivare.",
+  introduction2: "Testa vårt spel för att se om du känner igen de verktyg vi använder!",
 
   buttonContinue: "Fortsätt",
   buttonNext: "Nästa",
@@ -63,29 +56,26 @@ const paragraphs_swe = {
   buttonScore: "Högsta poäng",
   buttonTryAgain: "Spela igen",
 
-  instructions1: "Under 60 sekunder kommer våra trall X-Ray 2.0 att passera på ett rullband, du har cirka 3 sekunder på dig att bedöma om trallbrädan är OK för godkännande eller om den ska sorteras ur. Det är totalt 60 brädor varav 10 inte är godkända. Om trallen är godkänd låter du den passera. Är den inte godkänd klickar du på den så försvinner den ur ledet.",
-  instructions2: "Då du spelat klart hamnar topp 8 för dagen på en lista så alla kan se hur bra du är!",
-  instructions3: "för varje defekt trall du tar bort",
-  instructions4: "för varje fin trall du låter passera",
-  instructions5: "för varje fin trall du råkar ta bort",
-  instructions6: "för varje defekt trall du låter passera",
-
-  guideTitle1: "Kådlåpa",
-  guideDescription1: "En hålighet i barrträvirke (oftast gran) som är helt eller delvis fylld med kåda. Övriga sprickor bör man även se över.",
-  guideTitle2: "Ful kvist",
-  guideDescription2: "Kvistar kan i olika grad påverka kvalitén och hållfastheten. Detta beror på den fiberstörning som uppkommer runt kvisten. Vissa kvistar kan lossna efter att virket torkats.",
-  guideTitle3: "Täta & avlånga kvistar",
-  guideDescription3: "Beskrivning",
+  instructions1: "Under 45 sekunder passerar ett antal logotyper på skärmen. Tryck på de logotyper som inte har med vårt arbete att göra för att ta bort dem.",
+  instructions2: "Topplistan visar dagens 8 vassaste spelare, tar du en av dem?",
+  instructions3: "för varje irrelevant tech som du tar bort",
+  instructions4: "för varje relevant tech som du behåller",
+  instructions5: "för varje relevant tech som du tar bort",
+  instructions6: "för varje irrelevant tech som du behåller",
 
   userFormName: "Namn",
-  userFormCompany: "Företag",
-  userFormPhone: "Telefonnummer",
-  userFormNote: "Vinnaren kommer få ett meddelande vid slutet av dagen",
-  userFormAgreement: "Jag går med på att SCA lagrar min data för analysering och marknadsföringssyfte",
+  userFormCompany: "Utbildning",
+  userFormPhone: "E-postadress",
+  userFormNote: "Vinnaren kommer kontaktas vid ett senare tillfälle",
+  userFormAgreement: "Jag går med på att Cybercom Sundsvall lagrar min data för analysering och marknadsföringssyfte",
+
+  result1: "relevanta techs passerade",
+  result2: "irrelevant techs togs bort",
+  result3: "relevanta techs togs bort",
+  result4: "irrelevant techs passerade",
 
   score: "Poäng",
   youGot: "Du fick",
-  readMore: "Läs mer"
 }
 
 export { headlines_eng, paragraphs_eng, headlines_swe, paragraphs_swe };

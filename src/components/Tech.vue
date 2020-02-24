@@ -1,14 +1,15 @@
 <template>
   <div class="woodboard" :class="{removed : isRemoved}" @click="removeBoard">
-    <img :src="require(`@/assets/woodboards/${this.woodboard.uri}`)" />
+    <img :src="require(`@/assets/techs/${this.tech.uri}`)" />
+    <p class="title">{{this.tech.title}}</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Woodboard',
+  name: 'Tech',
   props: {
-    woodboard: Object
+    tech: Object
   },
   data() {
     return {
@@ -20,7 +21,7 @@ export default {
       if(!this.isRemoved) {
         this.isRemoved = true;
 
-        if(this.woodboard.defective) {
+        if(this.tech.defective) {
           this.$emit('add-point');
         } else {
           this.$emit('remove-point');
@@ -41,15 +42,21 @@ export default {
   display: inline-block;
   text-align: center;
   font-size: 0.75em;
-  width: 200px;
+  width: 400px;
+  height: 400px;
 
   &:hover {
     cursor: pointer;
   }
 
   img {
-    height: 80vh;
+    height: 40%;
   }
+}
+
+.title {
+  font-size: 2em;
+  margin-top: 100px;
 }
 
 @keyframes slideout {

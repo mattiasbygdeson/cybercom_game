@@ -14,22 +14,23 @@
     <div class="wrapper">
       <section class="grid-item-1">
         <p>{{this.paragraphs.instructions1}}</p>
+        <p>{{this.paragraphs.instructions2}}</p>
       </section>
 
       <section class="point-description grid-item-2">
         <div class="column">
-          <p><span class="badge positive">+20 p</span> {{this.paragraphs.instructions3}}</p>
-          <p><span class="badge positive">+16 p</span> {{this.paragraphs.instructions4}}</p>
+          <p><span class="badge positive">+50 p</span> {{this.paragraphs.instructions3}}</p>
+          <p><span class="badge positive">+50 p</span> {{this.paragraphs.instructions4}}</p>
         </div>
 
         <div class="column">
-          <p><span class="badge negative">-16 p</span> {{this.paragraphs.instructions5}}</p>
-          <p><span class="badge negative">-80 p</span> {{this.paragraphs.instructions6}}</p>
+          <p><span class="badge negative">-200 p</span> {{this.paragraphs.instructions5}}</p>
+          <p><span class="badge negative">-200 p</span> {{this.paragraphs.instructions6}}</p>
         </div>
       </section>
 
       <section class="grid-item-3">
-        <p>Image</p>
+        <img src="../assets/images/instructions.png" alt="Different logotypes">
       </section>
     </div>
 
@@ -68,22 +69,17 @@ export default {
   grid-area: image;
 }
 
-section {
-  border: 1px solid red;
-}
-
 .point-description {
   // border-top: 1px solid rgba(0, 0, 0, 0.3);
   // margin-top: 40px;
-  // font-size: 0.8em;
+  font-size: 0.8em;
   display: grid;
-  padding-top: 40px;
   grid-template-columns: 50% 50%;
 
   p {
-    // font-weight: bold;
-    // font-style: italic;
-    // margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
   }
   
   .badge {

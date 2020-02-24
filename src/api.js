@@ -27,12 +27,12 @@ async function getScoreList() {
   }
 }
 
-async function setScore(name, education, phone, score) {
+async function setScore(name, education, email, score) {
   try {
     const response = await instance.post(url, {
       name: name,
       education: education,
-      phone: phone,
+      email: email,
       score: score
     });
     return response;
