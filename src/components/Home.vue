@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>{{this.headlines.home}}</h1>
+    <!-- <h1>{{this.headlines.home}}</h1> -->
+    <h1>Test change</h1>
 
     <p>{{this.paragraphs.introduction1}}</p>
     <p>{{this.paragraphs.introduction2}}</p>
