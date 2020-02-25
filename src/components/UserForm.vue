@@ -28,7 +28,7 @@
         <input id="privacy-agreement" type="checkbox" v-model="checkbox">
         <label for="privacy-agreement" class="gdrp-agreement">
           {{this.paragraphs.userFormAgreement}}
-          <span>(<a class="gdpr-link" href="#">{{this.paragraphs.readMore}}</a>)</span>
+          <span>(<a class="gdpr-link" href="https://www.cybercom.com/Legal-notice/Privacy-policy/">{{this.paragraphs.readMore}}</a>)</span>
         </label>
       </div>
     </form>
