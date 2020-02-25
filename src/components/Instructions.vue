@@ -92,7 +92,7 @@ img {
     font-style: initial;
     display: inline-block;
     border-radius: 3px;
-    padding: 6px 15px;
+    padding: 6px 5px;
     color: white;
 
     &.positive {

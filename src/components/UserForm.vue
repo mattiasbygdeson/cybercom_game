@@ -28,6 +28,7 @@
         <input id="privacy-agreement" type="checkbox" v-model="checkbox">
         <label for="privacy-agreement" class="gdrp-agreement">
           {{this.paragraphs.userFormAgreement}}
+          <span>(<a class="gdpr-link" href="#">{{this.paragraphs.readMore}}</a>)</span>
         </label>
       </div>
     </form>
@@ -85,7 +86,7 @@ input[type="text"], input[type="number"] {
   border-radius: 3px;
   border: 1px solid #707070;
   background: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 0px 20px;
   font-size: 1.5em;
 }
@@ -106,7 +107,7 @@ input[type="checkbox"] {
   min-width: 40px !important;
   min-height: 40px !important;
   margin: 0;
-  margin-right: 20px;
+  margin-right: 10px;
   background: white;
 }
 
@@ -132,6 +133,10 @@ h2 {
 
 .gdrp-agreement {
   font-size: 1em;
+}
+
+.gdpr-link {
+  margin: 0;
 }
 
 </style>

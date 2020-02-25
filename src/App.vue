@@ -51,8 +51,8 @@ export default {
 
 <style lang="scss">
 @font-face {
-  font-family: SCAsans;
-  src: url("./assets/fonts/SCAsans.otf");
+  // font-family: SCAsans;
+  // src: url("./assets/fonts/SCAsans.otf");
 }
 
 @font-face {
@@ -89,7 +89,7 @@ ol, ul {
 }
 
 h1, h2, h3 {
-  font-family: SCAsans, sans-serif;
+  // font-family: SCAsans, sans-serif;
   margin-bottom: 50px;
 }
 
@@ -141,7 +141,7 @@ main {
 }
 
 a {
-  color: #44986b;
+  color: #015aa1;
   margin-right: 20px;
   text-decoration: none;
 }

@@ -36,6 +36,7 @@ const paragraphs_eng = {
 
   score: "Points",
   youGot: "You got",
+  readMore: "Read more"
 }
 
 const headlines_swe = {
@@ -76,6 +77,7 @@ const paragraphs_swe = {
 
   score: "Poäng",
   youGot: "Du fick",
+  readMore: "Läs mer"
 }
 
 export { headlines_eng, paragraphs_eng, headlines_swe, paragraphs_swe };
