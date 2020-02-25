@@ -2,6 +2,7 @@
   <div>
     <h2>{{this.headlines.instructions}}</h2>
 
+
     <nav class="bottom-right">
       <router-link to="/">
         <button class="button-secondary">{{this.paragraphs.buttonAbort}}</button>
