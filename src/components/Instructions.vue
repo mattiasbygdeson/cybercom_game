@@ -77,9 +77,10 @@ img {
 }
 
 .point-description {
-  font-size: 0.8em;
+  font-size: 0.75em;
   display: grid;
   grid-template-columns: 50% 50%;
+  
 
   p {
     font-weight: bold;

@@ -18,10 +18,10 @@ const paragraphs_eng = {
 
   instructions1: "During 45 seconds a number of logotypes will pass by on the screen. Touch the logotypes that are unrelevant to our work to remove them.",
   instructions2: "The high score list will consist of today's 8 hottest players. Can you take them on?",
-  instructions3: "for every unrelevant tech you remove",
-  instructions4: "for every relevant tech you keep",
-  instructions5: "for every relevant tech you remove",
-  instructions6: "for every unrelevant tech you keep",
+  instructions3: "every unrelevant tech you remove",
+  instructions4: "every relevant tech you keep",
+  instructions5: "every relevant tech you remove",
+  instructions6: "every unrelevant tech you keep",
 
   userFormName: "Name",
   userFormCompany: "Education",
@@ -59,10 +59,10 @@ const paragraphs_swe = {
 
   instructions1: "Under 45 sekunder passerar ett antal logotyper på skärmen. Tryck på de logotyper som inte har med vårt arbete att göra för att ta bort dem.",
   instructions2: "Topplistan visar dagens 8 vassaste spelare, tar du en av dem?",
-  instructions3: "för varje irrelevant tech som du tar bort",
-  instructions4: "för varje relevant tech som du behåller",
-  instructions5: "för varje relevant tech som du tar bort",
-  instructions6: "för varje irrelevant tech som du behåller",
+  instructions3: "varje irrelevant tech som du tar bort",
+  instructions4: "varje relevant tech som du behåller",
+  instructions5: "varje relevant tech som du tar bort",
+  instructions6: "varje irrelevant tech som du behåller",
 
   userFormName: "Namn",
   userFormCompany: "Utbildning",
