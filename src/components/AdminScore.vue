@@ -21,16 +21,16 @@
           <th>Education</th>
           <th>Email</th>
           <th>Score</th>
-          <!-- <th></th> -->
+          <th style="width:30px">Remove</th>
         </tr>
       
         <tr v-for="user in scoreboard" :key="user._id">
           <td>{{user.name}}</td>
           <td>{{user.company}}</td>
           <td>{{user.email}}</td>
-          <td>
-            {{user.score}}
-            <span><button @click="removeItem(user._id)" class="button-delete">Ta bort</button></span>
+          <td>{{user.score}}</td>
+          <td style="width:30px">
+            <button @click="removeItem(user._id)" class="button-delete">X</button>
           </td>
         </tr>
       </table>

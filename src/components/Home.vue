@@ -1,9 +1,11 @@
 <template>
-  <div>
+  <div class="home">
     <h1>{{this.headlines.home}}</h1>
 
-    <p>{{this.paragraphs.introduction1}}</p>
-    <p>{{this.paragraphs.introduction2}}</p>
+    <div class="text-container">
+      <p>{{this.paragraphs.introduction1}}</p>
+      <p>{{this.paragraphs.introduction2}}</p>
+    </div>
 
     <nav>
       <ul>
@@ -20,9 +22,7 @@
       <li class="secret"></li>
     </router-link>
 
-    <video autoplay muted loop id="myVideo" class="video-background">
-      <!-- <source src="../assets/bgmovie.mp4" type="video/mp4"> -->
-    </video>
+    <div class="background"></div>
   </div>
 </template>
 
@@ -42,8 +42,13 @@ h1 {
 }
 
 p {
-  width: 600px;
   color: #fff;
+}
+
+.text-container {
+  // background: rgba(0,0,0,1);
+  // padding: 20px;
+  width: 620px;
 }
 
 nav {
@@ -64,14 +69,17 @@ nav {
   }
 }
 
-.video-background {
-  background-color: #000;
+.background {
+  // background-color: #000;
+  background-image: url("../assets/images/background.jpg");
   position: fixed;
-  top: -170px;
-  left: -10px;
-  width: 200vh;
-  height: 150vh;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
   z-index: -100;
+  // border: 2px solid red;
 }
 
 </style>

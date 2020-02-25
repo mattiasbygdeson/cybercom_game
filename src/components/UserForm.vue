@@ -107,7 +107,6 @@ input[type="checkbox"] {
   min-height: 40px !important;
   margin: 0;
   margin-right: 20px;
-  margin-top: 30px;
   background: white;
 }
 

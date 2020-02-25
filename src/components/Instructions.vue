@@ -69,9 +69,13 @@ export default {
   grid-area: image;
 }
 
+img {
+  max-width: 90%;
+  position: relative;
+  top: -20px;
+}
+
 .point-description {
-  // border-top: 1px solid rgba(0, 0, 0, 0.3);
-  // margin-top: 40px;
   font-size: 0.8em;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -83,14 +87,12 @@ export default {
   }
   
   .badge {
-    width: 80px;
     text-align: center;
     font-style: initial;
     display: inline-block;
     border-radius: 3px;
     padding: 6px 15px;
     color: white;
-    margin-right: 5px;
 
     &.positive {
       background: #389c68;
